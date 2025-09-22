@@ -109,11 +109,18 @@ public class MathOperationsPractice {
         // - Hitung bunga majemuk menggunakan rumus sederhana: jumlah = pokok * (1 + suku_bunga) ^ waktu
         // Gunakan Math.pow() untuk perpangkatan
         // pokok = 1000, suku_bunga = 0.05 (5%), waktu = 3 tahun
+        double pokok = 1000, sukuBunga = 0.05, lamaWaktu = 3;
+        double jumlah = pokok * Math.pow((1 + sukuBunga),waktu);
+
 
         // - Hitung rata-rata dari lima nilai ujian: 85, 92, 78, 96, 88
+        int nilaiUjian1 = 85, nilaiUjian2 = 92, nilaiUjian3 = 78, nilaiUjian4 = 96, nilaiUjian5 = 88;
+        double rataRata = (nilaiUjian1 + nilaiUjian2 + nilaiUjian3 + nilaiUjian4 + nilaiUjian5) / 5.0;
 
-        // - Print semua hasil dengan format yang proper (pertimbangkan menggunakan String.format())
-
+        // - Print semua hasil dengan format yang proper (pertimbangkan menggunakan String.format()
+        System.out.println("Menghitung jarak : "+kecepatan + "km/jam x " + waktu + "jam = " + jarak);
+        System.out.println("Bunga Majemuk : " + pokok + " x (1 + " + sukuBunga + ") ^ " + lamaWaktu + " = " + jumlah);
+        System.out.println("Rata - rata nilai : (" + nilaiUjian1 + " + " + nilaiUjian2 + " + " + nilaiUjian3 + " + " + nilaiUjian4 + " + " + nilaiUjian5 + ") : 5 = " + rataRata );
 
     }
 }

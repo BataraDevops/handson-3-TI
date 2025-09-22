@@ -6,4 +6,7 @@
 **Mata Kuliah:** Pemrograman Berorientasi Objek
 
 ## Catatan Pembelajaran
-[Tulis 3-5 poin pembelajaran penting yang Anda dapatkan dari handson ini]
+1. Expression adalah kombinasi dari variabel, operator, literals, dan pemanggilan method yang menghasilkan sebuah nilai.
+2. Statement adalah instruksi lengkap yang memerintahkan komputer untuk melakukan sesuatu.
+3. Augmented Assignment adalah cara singkat untuk melakukan operasi matematika dan assignment sekaligus. 
+4. Short-Circuit adalah cara Java menghemat waktu dengan berhenti mengecek kondisi jika jawabannya sudah pasti.
